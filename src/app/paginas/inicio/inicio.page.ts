@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { ActionSheetController } from '@ionic/angular';
+interface Componente {
+  icono:string ;
+  nombre:string ;
+  direccion:string;
+}
 
 @Component({
   selector: 'app-inicio',
