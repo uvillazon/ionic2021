@@ -1,9 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-interface Componente {
+interface Avatar {
   icono:string ;
   nombre:string ;
-  direccion:string;
 }
 
 @Component({
@@ -12,39 +11,40 @@ interface Componente {
   styleUrls: ['./avatar.page.scss'],
 })
 export class AvatarPage implements OnInit {
-  
-  avatar:Componente[]=[
+  repetir = Array(100);
+  avatar:Avatar[]=[
     {
-      icono: 'person-outline',
-      nombre:'Action Sheet1',
-      direccion:'/action-sheet',
+      icono: 'assets/img/imagen1.jpg',
+      nombre:'Naruto1'
     },
     {
-      icono: 'pricetag-outline',
-      nombre:'Alert1',
-      direccion:'/alert',
+      icono: 'assets/img/imagen2.jpg',
+      nombre:'Naruto2'
     },
     {
-      icono: 'planet-outline',
-      nombre:'Fab1',
-      direccion:'/fab',
+      icono: 'assets/img/imagen3.jpg',
+      nombre:'Naruto3'
     },
     {
-      icono: 'rocket-outline',
-      nombre:'Date Time1',
-      direccion:'/datetime',
+      icono: 'assets/img/imagen4.jpg',
+      nombre:'Naruto4'
     },
     {
-      icono: 'albums-outline',
-      nombre:'Botones1',
-      direccion:'/buttons',
+      icono: 'assets/img/imagen5.jpg',
+      nombre:'Naruto5'
     },
     {
-      icono: 'albums-outline',
-      nombre:'Avatar',
-      direccion:'/avatar',
+      icono: 'assets/img/imagen4.jpg',
+      nombre:'Naruto4'
     },
-   
+    {
+      icono: 'assets/img/imagen3.jpg',
+      nombre:'Naruto3'
+    },
+    {
+      icono: 'assets/img/imagen2.jpg',
+      nombre:'Naruto2'
+    },
   ]
 
   constructor() { }
