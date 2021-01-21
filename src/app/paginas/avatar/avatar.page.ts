@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActionSheetController } from '@ionic/angular';
+
 interface Componente {
   icono:string ;
   nombre:string ;
@@ -7,13 +7,13 @@ interface Componente {
 }
 
 @Component({
-  selector: 'app-inicio',
-  templateUrl: './inicio.page.html',
-  styleUrls: ['./inicio.page.scss'],
+  selector: 'app-avatar',
+  templateUrl: './avatar.page.html',
+  styleUrls: ['./avatar.page.scss'],
 })
-export class InicioPage implements OnInit {
-
-  componente:Componente[]=[
+export class AvatarPage implements OnInit {
+  
+  avatar:Componente[]=[
     {
       icono: 'person-outline',
       nombre:'Action Sheet1',
@@ -43,11 +43,6 @@ export class InicioPage implements OnInit {
       icono: 'albums-outline',
       nombre:'Avatar',
       direccion:'/avatar',
-    },
-    {
-      icono: 'albums-outline',
-      nombre:'Cards',
-      direccion:'/cards',
     },
    
   ]
