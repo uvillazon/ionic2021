@@ -43,6 +43,10 @@ const routes: Routes = [
     path: 'slides',
     loadChildren: () => import('./paginas/slides/slides.module').then( m => m.SlidesPageModule)
   },
+  {
+    path: 'grid',
+    loadChildren: () => import('./paginas/grid/grid.module').then( m => m.GridPageModule)
+  },
 
 
   

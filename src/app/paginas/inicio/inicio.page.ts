@@ -54,6 +54,11 @@ export class InicioPage implements OnInit {
       nombre:'Slides',
       direccion:'/slides',
     },
+    {
+      icono: 'albums-outline',
+      nombre:'Grid',
+      direccion:'/grid',
+    },
    
   ]
 
