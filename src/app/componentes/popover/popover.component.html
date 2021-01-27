@@ -1,0 +1,20 @@
+<ion-card class="person-modal">
+    <ion-card-content>
+        <h3>{{person.name}}</h3>
+        <!-- <h3>Titutlo</h3> -->
+        <div class="user-info">
+            <p class="item-description">
+                <ion-list>
+                    <ion-list-header>Ionic</ion-list-header>
+                    <ion-item button>Learn Ionic</ion-item>
+                    <ion-item button>Documentation</ion-item>
+                    <ion-item button>Showcase</ion-item>
+                    <ion-item button>GitHub Repo</ion-item>
+                    <ion-item lines="none" detail="false" button (click)="ClosePopover()">Close</ion-item>
+                </ion-list>
+                <!-- <ion-text innerHTML="person.summary"></ion-text> -->
+                <ion-text [innerHTML]="person.summary"></ion-text>
+            </p>
+        </div>
+    </ion-card-content>
+</ion-card>

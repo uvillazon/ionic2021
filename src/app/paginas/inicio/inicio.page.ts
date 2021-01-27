@@ -59,7 +59,15 @@ export class InicioPage implements OnInit {
       nombre:'Grid',
       direccion:'/grid',
     },
-   
+    {
+      icono: 'accessibility-outline',
+      nombre:'Toast',
+      direccion:'/toast',
+    }, {
+      icono: 'construct',
+      nombre:'Popover ',
+      direccion:'/popover',
+    },
   ]
 
   constructor() { }
