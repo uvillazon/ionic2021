@@ -68,6 +68,16 @@ export class InicioPage implements OnInit {
       nombre:'Popover ',
       direccion:'/popover',
     },
+    {
+      icono: 'construct',
+      nombre:'Input ',
+      direccion:'/input',
+    },
+    {
+      icono: 'infinite-outline',
+      nombre:'Infinity scrool',
+      direccion:'/infinity',
+    },
   ]
 
   constructor() { }

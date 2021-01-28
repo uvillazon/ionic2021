@@ -55,6 +55,14 @@ const routes: Routes = [
     path: 'popover',
     loadChildren: () => import('./paginas/popover/popover.module').then( m => m.PopoverPageModule)
   },
+  {
+    path: 'input',
+    loadChildren: () => import('./paginas/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'infinity',
+    loadChildren: () => import('./paginas/infinity/infinity.module').then( m => m.InfinityPageModule)
+  },
 
 
   
