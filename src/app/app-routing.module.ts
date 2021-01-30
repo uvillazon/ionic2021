@@ -63,6 +63,14 @@ const routes: Routes = [
     path: 'infinity',
     loadChildren: () => import('./paginas/infinity/infinity.module').then( m => m.InfinityPageModule)
   },
+  {
+    path: 'listas',
+    loadChildren: () => import('./paginas/listas/listas.module').then( m => m.ListasPageModule)
+  },
+  {
+    path: 'list-reorder',
+    loadChildren: () => import('./paginas/list-reorder/list-reorder.module').then( m => m.ListReorderPageModule)
+  },
 
 
   
